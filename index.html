@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="central-container">
+        <h1>Please, fill in the form.</h1>
+        <form action="" id="usrform">
+            <h2>Name:</h2><input id="nameInput" type="text" placeholder="First name..."><br>
+            <h2>Email:</h2><input id="emailInput" type="email" placeholder="Email..."><br>
+            <h2>Messaje:</h2><textarea id="messageInput" rows="10" cols="15" name="comment" form="usrform" placeholder="Write down your message..."></textarea><br>
+            <button class="button" id="btn" type="submit">Send</button>
+        </form>
+        <ul id="messages"></ul>
+        <button class="button" id="deleteAll" type="submit">Delete All</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
